@@ -57,7 +57,7 @@ $(document).ready(function(){
         var d2 = cells[2] + cells[4] + cells[6];
         
         if ((h1==winner) || (h2==winner) || (h3==winner) || (v1==winner) || (v2==winner) || (v3==winner) || (d1==winner) || (d2==winner)) {
-            alert("The winner is: " + winner[0]);
+            alert("The winner is:  " + winner[0]);
     }
     }
             
